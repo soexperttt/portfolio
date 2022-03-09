@@ -16,7 +16,6 @@ header{
     /* backdrop-filter: saturate(0%);*/
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6152e5+0,ff1eff+100 */
 /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ab28cc+0,7db9e8+75&1+0,0+100,0+100 */
-backdrop-filter: blur(20px);
 
 background: -moz-linear-gradient(top,  rgba(171,40,204,1) 0%, rgba(125,185,232,0.25) 75%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
 background: -webkit-linear-gradient(top,  rgba(171,40,204,1) 0%,rgba(125,185,232,0.25) 75%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
@@ -31,8 +30,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab28cc', end
 .navigation a{
     color:rgb(255, 255, 255);
     text-decoration: none;
-    font-weight: 500;
-    font-size: 1.5em;
+    font-weight: 200;
+    font-size: 1.2em;
     padding-left: 60px;
     transition: ease 0.6s;
 }
