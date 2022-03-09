@@ -1,0 +1,307 @@
+
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+*{
+    text-transform: uppercase;
+}
+/* Header */
+header{
+    /* background-color: rgb(145, 28, 255); */
+    /* backdrop-filter: saturate(0%);*/
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#6152e5+0,ff1eff+100 */
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ab28cc+0,7db9e8+75&1+0,0+100,0+100 */
+backdrop-filter: blur(20px);
+
+background: -moz-linear-gradient(top,  rgba(171,40,204,1) 0%, rgba(125,185,232,0.25) 75%, rgba(125,185,232,0) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(171,40,204,1) 0%,rgba(125,185,232,0.25) 75%,rgba(125,185,232,0) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(171,40,204,1) 0%,rgba(141, 2, 255, 0.383) 0%,rgba(125, 132, 232, 0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ab28cc', endColorstr='#007db9e8',GradientType=0 ); /* IE6-9 */
+    width: 100%;
+    position: fixed; /*لما انزل بالصفحه يجلس محله*/
+    z-index: 999;
+
+    text-align: center;
+}
+.navigation a{
+    color:rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.5em;
+    padding-left: 60px;
+    transition: ease 0.6s;
+}
+.navigation a:hover{
+
+    color: rgb(204, 0, 255);
+}
+
+/* Section 1*/
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh; /* vh = view port/highet*/
+    display: flex;
+    align-items: center;
+    background: url(images/BG7.jpg) no-repeat ;
+
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed; /* for scroll */
+}
+
+.main h2{
+    display: inline-block;
+    margin-top: -5px;
+    color: rgb(0, 247, 255);
+    font-size: 3em;
+    font-weight: 600;
+    letter-spacing: 10px;
+}
+.main h3{
+    color: rgb(255, 255, 255);
+    font-weight: 100;
+    font-size: 1.5em;
+    margin-top: -10px;
+
+}
+.main h4{
+    color: white;
+    font-size: 1.1em;
+    font-weight: 250;
+
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.hr-1{
+margin-top:10px;
+opacity: 50%;
+}
+.social-icon a{
+    padding: 10px;
+    color: aliceblue;
+    
+}
+
+/* Section 2*/
+.title{
+    display: flex;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    font-size: 3em;
+    font-weight: 300;
+    letter-spacing: 1em;
+    margin-bottom: 30px;
+    margin-top: 1px;
+
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap:wrap;
+}
+.contact-me-title h2{
+    font-size: 2em;
+}
+.services-main{
+    /* background-color: rgb(0, 68, 255); */
+    background: url(images/BG2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+
+}
+.project-main{
+    background: url(images/bg12.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    transition: 0.4s ease;
+
+}
+.contact-main{
+    background: url(images/BG7.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.footer-main{
+    background: url(images/BG7.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+.card{
+    /* background-color: rgb(255, 255, 255); */
+    backdrop-filter: blur(8px);
+    width: 21.25em;
+    box-shadow: 10px 20px 50px rgb(1 1 1 / 100%); /* up or down - right or left - the blur - color*/
+    border-radius: 10px;
+    padding: 25px; /* pading يسوي مساحه داخل ال اليليمنت نفسه*/
+    margin: 30px; /* margin يسوي مساحه بين الايليمنت*/
+    transition: 0.4s ease;
+    
+
+}
+.card:hover{
+    /* background-color: rgb(255, 255, 255); */
+
+    transform: scale(1.1,1.1);    
+    backdrop-filter: blur(3px);
+    
+
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#d5cea6+0,c9c190+40,b7ad70+100;Brown+3D */
+background: rgb(213,206,166); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(213,206,166,1) 0%, rgba(201,193,144,1) 40%, rgba(183,173,112,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(213,206,166,1) 0%,rgba(201,193,144,1) 40%,rgba(183,173,112,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(255, 255, 255, 0.234) 0%,rgba(209, 36, 200, 0.234) 40%,rgba(35, 131, 255, 0.234) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 ); /* IE6-9 */
+color: rgb(255, 255, 255);
+
+
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);  
+
+}
+.icon{
+    font-size: 8em;
+    text-align: center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+.info p{
+    font-size: 1em;
+    font-weight: 300;
+    margin: 10px;
+}
+
+.projects{
+background-color: rgb(255, 255, 255);
+}
+.projects .content{
+    margin-top: 30px;
+    
+}
+.project-card{
+    min-height: 14em;
+    width: 25em;
+    overflow:hidden;
+    margin: 1.5em;
+    transition: 0.4s ease;
+    /* box-shadow: 5px 10px 10px rgb(1 1 1 / 30%);  */
+    border-radius: 15px;
+backdrop-filter: blur(8px);
+box-shadow: 10px 20px 50px rgb(1 1 1 / 100%); /* up or down - right or left - the blur - color*/
+
+}
+
+.project-card:hover{
+
+    transform: scale(1.1);
+    box-shadow: 5px 5px 35px rgba(25, 78, 128, 0.774); /* up or down - right or left - the blur - color*/
+    opacity: 0.9;
+    background-color: rgb(255, 255, 255);
+}
+.project-image img{
+    width: 100%;
+}
+
+.project-info{
+    padding: 0.5em;
+
+}
+.project-card:hover p{
+
+color: black;
+}
+.project-category{
+    font-size: 1.3em;
+    text-align: center;
+    margin: 0.1em;
+    font-weight: 900px;
+color: white;
+}
+
+
+ 
+
+.project-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.click-here a{
+    color: black;
+    text-decoration: none;
+    transform: scale(5);   
+}
+.click-here a:hover{
+    color: rgb(255, 0, 242);
+}
+
+.info2{
+    text-align: center;
+    margin-top: -30px;
+
+}
+.card2{
+
+    backdrop-filter: blur(8px);
+
+
+    width: 21.25em;
+    box-shadow: 5px 5px 10px rgb(1 1 1 / 30%); /* up or down - right or left - the blur - color*/
+    border-radius: 20px;
+    padding: 25px; /* pading يسوي مساحه داخل ال اليليمنت نفسه*/
+    margin: 30px; /* margin يسوي مساحه بين الايليمنت*/
+    margin-bottom: 300px;
+    transition: 0.4s ease;
+}
+.card2:hover{
+    opacity: 0.9;
+
+    transform: scale(1.1,1.1);    
+
+    background: rgb(213,206,166); /* Old browsers */
+    background: -moz-linear-gradient(top,  rgba(213,206,166,1) 0%, rgba(201,193,144,1) 40%, rgba(183,173,112,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(213,206,166,1) 0%,rgba(201,193,144,1) 40%,rgba(183,173,112,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(255, 255, 255, 0.234) 0%,rgba(209, 36, 200, 0.234) 40%,rgba(35, 131, 255, 0.234) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5cea6', endColorstr='#b7ad70',GradientType=0 ); /* IE6-9 */
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(3px);
+
+    
+        box-shadow: 0px 0px 50px rgb(0, 0, 0);  
+
+}
+.footer{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(17, 0, 31); 
+    
+    padding: 10px;
+
+}
+.footer-title{
+    font-weight: 100px;
+    font-size: 15px;
+}
