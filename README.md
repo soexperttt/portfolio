@@ -1,8 +1,6 @@
 # portfolio
 STILL work in progress
-STILL work in progress
-STILL work in progress
-STILL work in progress
+
 
 Link: 
 https://socursed.github.io/portfolio/
